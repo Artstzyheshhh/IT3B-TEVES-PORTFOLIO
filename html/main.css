@@ -1,0 +1,6 @@
+.main{ height: auto; margin: 0 auto; position: relative; background-color: rgb(31, 29, 29);  color: aliceblue; font-family: 'Open Sans', sans-serif;}
+#head{ width: 100%; display: flex; margin-left: 15px; justify-content: space-between; align-items: center; border-bottom: 2px solid rgb(65, 64, 64);}
+#head nav a {color:aliceblue; margin-right: 30px; text-decoration: none; font-size: 20px; display: inline-block;}
+.body{margin:140px; font-size: 25px; display: flex; gap: 30px; align-items: center;}
+.body img {width: 300px; height: auto; border-radius: 50%;}
+.logo {width: 30px; height: auto; border-radius: 50%;}
