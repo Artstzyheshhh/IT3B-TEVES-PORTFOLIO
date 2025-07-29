@@ -1,15 +1,25 @@
-.main{ height: auto; margin: 0 auto; position: relative;background-color: black; color: aliceblue; font-family: 'Open Sans', sans-serif;}
-#head{ width: 100%; color:aliceblue; display: flex; justify-content: space-between; background-color: black; align-items: center; padding-left: 20px; position: fixed;top: 0px;}
+.main{ width: 1180px; height: auto; margin: 0 auto; position: relative; background-color: black; color: aliceblue; font-family: 'Open Sans', sans-serif;}
+#head{ height: 60px; width: 100%; color:aliceblue; display: flex; justify-content: space-between; background-color: black   ; align-items: center; padding-left: 20px; position: fixed;top: 0px; left: 0px;}
 #head nav a {color:aliceblue; text-decoration: none; font-size: 20px; padding-right: 50px;}
 #head nav a:hover {color: aquamarine; border-radius: 10px; }
-#name{color: aquamarine;}
-.body{padding:100px 200px; font-size: 25px; display: flex; gap: 30px; align-items: center; border-radius: 30px; line-height: 40px;}
-.body img {width: 250px; height: auto; border-radius: 50%;}
+
+.name{width: 1000px; margin-top:70px;padding:30px 50px;  font-size: 25px;  gap: 30px; align-items: center; border-radius: 10px; display: flex; line-height: 40px; background-color: rgb(40, 65, 65);}
+.name img {width: 200px; height: auto; border-radius: 50%;}
+
 #logo{ margin:100px 200px;  width: fit-content; font-family: Arial, sans-serif; font-size: 25px; padding: 50px;}
 #logo img {width: 30px; height: auto; border-radius: 50%;}
 #logo a {display: flex; align-items: center; text-decoration: none; color: aliceblue; gap: 15px; margin-bottom: 15px; font-size: 25px;}
 #logo ul {list-style: none; padding:0;margin: 0; }
-#text{margin: 50px 200px; font-size: 25px; line-height: 40px; text-align: justify;} 
+
+#text{margin: 60px 10px; font-size: 25px; line-height: 40px; text-align: justify; } 
 #highlight{color: aquamarine; text-align: center;}
-html { scroll-behavior: smooth; }
-section { padding: 20px;border-bottom: 1px solid aquamarine;  margin: 10px 30px; }
+html { scroll-behavior: smooth;  background-color: black; }
+section { padding: 20px;  margin:100px 30px;}
+
+.boxes{ margin: 20px; display: inline-block; width: 160px; height: 130px; background-color: rgb(40, 65, 65); text-align: center; padding-top: 5px; border-radius: 15px; }
+.boxes img{width: 60px;  margin: 0 auto; align-items: center;}
+.boxes p{ margin: 0;padding: 0;}    
+.boxes-container{margin: 50px 200px; font-size: 25px; line-height: 40px; text-align: justify;}        
+
+.proj{width: auto; margin-top: 50px; text-align: justify; height: auto; line-height: 30px; background-color: rgb(40, 65, 65); font-size: 20px; text-align: center; padding-top: 5px; border-radius: 15px; padding:20px 50px; }
+.button {background-color: black; color: white; padding: 10px 20px; font-size: 16px; border: none;border-radius: 7px;cursor: pointer; }

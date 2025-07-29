@@ -6,9 +6,10 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-<body class="main">
-    <div>
-    <div>
+<body>
+ 
+    <div  class="main">
+      <div>
         <header id="head"> 
             <h2 id="highlight"> PORTFOLIO</h2> 
             <nav>
@@ -17,41 +18,64 @@
                 <a href="#socials">Socials</a>   
             </nav>
         </header>
-        </div>
+      </div>
         <section id="home">
-          <div class="body">
+        <div>
+          <div class="name">
             <img src="../images/pfp.jpg" alt="Anthony Teves profile picture">
             <div>
               <h1 id="name">TEVES, ANTHONY R.</h1>
-              <h3>Aspiring frontend developer</h3>
-              <p>"A man dies not when his heart stops, but when he is forgotten"</p>
+              <P>Aspiring frontend developer <br>
+              "A man dies not when his heart stops, but when he is forgotten"</p>
             </div>
           </div>
+
           <div id="text">
-            <h2 id="highlight">About me:</h2>
-            <p> Hi am a 3rd year college studying in bachelor of science in information technology who thrives to achieve his goal a person
+            <h3 id="highlight">ABOUT ME:</h3>
+            <p> Hi am a 3rd year college studying in bachelor of science in information technology who thrives to achieve his goal, a person
             who's full of dreams, passions and loves challenges. I mostly likely focuses on frontend and love to learn more about graphics designing.</p>
           </div> 
+        </div>
         </section>   
             
         <section id="skills">
-          <div id="text">
+          <div class="boxes-container">
             <h3 id="highlight">LANGUAGES</h3>
-            <div>
-
-              JAVA</div>
-            <div
-
-            >SQL</div>
-            <div>
-
-              C language</div> 
+            <div class="boxes">
+              <img src="../images/javaicon.png" alt="">
+              <p>JAVA</p></div>
+            <div class="boxes">
+              <img src="../images/sql.png" alt="">
+              <P>SQL</P></div>
+            <div class="boxes">
+              <img src="../images/clogo.png" alt="">
+              <P>C language</P>
+              </div> 
           </div>
-          <div id="text">
-              <h3 id="highlight">PROJECTS</h3>
 
+          <div>
+            <div class="boxes-container"><h3 id="highlight">PROJECTS</h3> </div>
+
+            <div class="proj">            
+              <p>Comelec Filing app - java application with gui and my final
+                 project during my 2nd year 2nd sem. this app is most likely 
+                 for filing only, but there's still a lot of room for improvements.</p>
+              <a href="https://github.com/Artstzyheshhh/IT2C-TEVES-CFA.git">
+                <button class="button">View project</button>
+              </a>
+            </div>
+
+            <div class="proj">
+              <p>Movie ticketing app - java application without gui, final project during 2nd year sem.
+                implemented loops, else ifs conditions and switch cases. can perform CREATE, REPORT, UPDATE and DELETE 
+                function.
+              </p>
+              <a href="https://github.com/Artstzyheshhh/IT2B-TEVES-MTA.git">
+                <button class="button">View project</button>
+              </a>
+            </div>
           </div>
-        </section>
+        </section>  
 
         <section id="socials">
           <div id="logo">     
